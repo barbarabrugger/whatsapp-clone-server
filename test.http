@@ -1,0 +1,3 @@
+GET http://localhost:4000/_ping
+###
+Get http://localhost:4000/chats

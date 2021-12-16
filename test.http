@@ -1,3 +1,9 @@
 GET http://localhost:4000/_ping
 ###
 Get http://localhost:4000/chats
+###
+curl \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{ "query": "{ chats { id name picture lastMessage { id content createdAt } } }" }' \
+  http://localhost:4000/graphql

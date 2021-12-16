@@ -42,7 +42,7 @@ export const chats = [
   },
   {
     id: '4',
-    name: 'Catherine Peterson',
+    name: 'Katie Peterson',
     picture: 'https://randomuser.me/api/portraits/thumb/women/2.jpg',
     lastMessage: messages.find((m) => m.id === '4'),
   },
